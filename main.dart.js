@@ -16099,7 +16099,7 @@ var $async$f6=A.aa(function(a4,a5){if(a4===1){o=a5
 s=p}while(true)switch(s){case 0:a1=null
 p=4
 s=7
-return A.ab(a3.c7(0,"FontManifest.json"),$async$f6)
+return A.ab(a3.c7(0,"./kindle_clock/FontManifest.json"),$async$f6)
 case 7:a1=a5
 p=2
 s=6
@@ -22397,7 +22397,7 @@ var $async$f6=A.aa(function(a8,a9){if(a8===1){o=a9
 s=p}while(true)switch(s){case 0:a5=null
 p=4
 s=7
-return A.ab(a7.c7(0,"FontManifest.json"),$async$f6)
+return A.ab(a7.c7(0,"./kindle_clock/FontManifest.json"),$async$f6)
 case 7:a5=a9
 p=2
 s=6
