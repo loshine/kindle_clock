@@ -4,22 +4,22 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "f5121228a615b6b7ecd07bc928cb220b",
-"index.html": "a5af6be68ec716becb6cb8b72aae0c43",
-"/": "a5af6be68ec716becb6cb8b72aae0c43",
-"main.dart.js": "a530c33e0130b5a92f4ee2bf9b7d44ab",
+"index.html": "086dc09908da7cc8ce3c49de8786f145",
+"/": "086dc09908da7cc8ce3c49de8786f145",
+"main.dart.js": "d6db9c2159988fd5d69761d7941b3cc9",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "f2f9a61207d08c0531505cae0006489c",
-"kindle_clock/assets/AssetManifest.json": "7c0f8558ad98e131b48792d22691a99d",
-"kindle_clock/assets/NOTICES": "9a94d4dc79302ef0b433a654424fcb6d",
-"kindle_clock/assets/FontManifest.json": "c11dd8c1dabd1efec4ff367f7d0c527b",
-"kindle_clock/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"kindle_clock/assets/fonts/RobotoMono-VariableFont_wght.ttf": "9e06bf8e4155ad3a942a9ff38f59fbc4",
-"kindle_clock/assets/fonts/RobotoMono-Italic-VariableFont_wght.ttf": "f7f9444826ffa286aa3569c60c75995b",
-"kindle_clock/assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1"
+"assets/AssetManifest.json": "7c0f8558ad98e131b48792d22691a99d",
+"assets/NOTICES": "9a94d4dc79302ef0b433a654424fcb6d",
+"assets/FontManifest.json": "c11dd8c1dabd1efec4ff367f7d0c527b",
+"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"assets/fonts/RobotoMono-VariableFont_wght.ttf": "9e06bf8e4155ad3a942a9ff38f59fbc4",
+"assets/fonts/RobotoMono-Italic-VariableFont_wght.ttf": "f7f9444826ffa286aa3569c60c75995b",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -28,9 +28,9 @@ const CORE = [
   "/",
 "main.dart.js",
 "index.html",
-"kindle_clock/assets/NOTICES",
-"kindle_clock/assets/AssetManifest.json",
-"kindle_clock/assets/FontManifest.json"];
+"assets/NOTICES",
+"assets/AssetManifest.json",
+"assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
   self.skipWaiting();
